@@ -1,1 +1,1 @@
-Creating a new vranch is quick & simple.
+Creating a new vranch is quick and simple.
