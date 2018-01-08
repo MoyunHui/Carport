@@ -1,2 +1,2 @@
 # learngit
-the txt of learngit
+git log --graph --pretty=oneline --abbrev-commit
