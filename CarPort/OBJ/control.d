@@ -1,10 +1,10 @@
 ..\obj\control.o: ..\HARDWARE\CTL\control.c
-..\obj\control.o: D:\KEIL\ARM\ARMCC\Bin\..\include\string.h
+..\obj\control.o: D:\keil arm\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\control.o: ..\HARDWARE\CTL\control.h
 ..\obj\control.o: ..\SYSTEM\sys\sys.h
 ..\obj\control.o: ..\USER\stm32f10x.h
 ..\obj\control.o: ..\CORE\core_cm3.h
-..\obj\control.o: D:\KEIL\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\control.o: D:\keil arm\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\control.o: ..\USER\system_stm32f10x.h
 ..\obj\control.o: ..\USER\stm32f10x_conf.h
 ..\obj\control.o: ..\STM32F10x_FWLib\inc\stm32f10x_adc.h

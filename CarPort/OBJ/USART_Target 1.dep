@@ -1,10 +1,10 @@
 Dependencies for Project 'USART', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x59F054EA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-ID:\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x59F054EA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-I"D:\keil arm\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (..\HARDWARE\LED\led.h)(0x532ADBE4)
 I (..\SYSTEM\sys\sys.h)(0x550F951A)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
-I (D:\KEIL\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\keil arm\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
 I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
 I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
@@ -32,16 +32,16 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (..\SYSTEM\delay\delay.h)(0x55CC2E58)
 I (..\SYSTEM\usart\usart.h)(0x59E591D8)
-I (D:\KEIL\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil arm\ARM\ARMCC\include\stdio.h)(0x588B8344)
 I (..\HARDWARE\RFID-RC522\rc522.h)(0x5347A2E3)
 I (..\HARDWARE\RFID-RC522\my_rc522.h)(0x59ED98FF)
-I (D:\KEIL\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\keil arm\ARM\ARMCC\include\string.h)(0x588B8344)
 I (..\HARDWARE\CTL\control.h)(0x59F04E0B)
-F (.\stm32f10x_it.c)(0x4EBEACB0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-ID:\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
+F (.\stm32f10x_it.c)(0x4EBEACB0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-I"D:\keil arm\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
 I (stm32f10x_it.h)(0x4D99A426)
 I (stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
-I (D:\KEIL\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\keil arm\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (system_stm32f10x.h)(0x4D783CAA)
 I (stm32f10x_conf.h)(0x55B0C93C)
 I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
@@ -68,10 +68,10 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (.\system_stm32f10x.c)(0x4D99A426)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-ID:\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d)
+F (.\system_stm32f10x.c)(0x4D99A426)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-I"D:\keil arm\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d)
 I (stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
-I (D:\KEIL\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\keil arm\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (system_stm32f10x.h)(0x4D783CAA)
 I (stm32f10x_conf.h)(0x55B0C93C)
 I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
@@ -98,12 +98,12 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\HARDWARE\LED\led.c)(0x532ADBE2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-ID:\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+F (..\HARDWARE\LED\led.c)(0x532ADBE2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-I"D:\keil arm\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
 I (..\HARDWARE\LED\led.h)(0x532ADBE4)
 I (..\SYSTEM\sys\sys.h)(0x550F951A)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
-I (D:\KEIL\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\keil arm\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
 I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
 I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
@@ -129,11 +129,11 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\HARDWARE\RFID-RC522\rc522.c)(0x59EC92B6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-ID:\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\rc522.o --omf_browse ..\obj\rc522.crf --depend ..\obj\rc522.d)
+F (..\HARDWARE\RFID-RC522\rc522.c)(0x59EC92B6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-I"D:\keil arm\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\rc522.o --omf_browse ..\obj\rc522.crf --depend ..\obj\rc522.d)
 I (..\SYSTEM\sys\sys.h)(0x550F951A)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
-I (D:\KEIL\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\keil arm\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
 I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
 I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
@@ -160,12 +160,12 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (..\HARDWARE\RFID-RC522\rc522.h)(0x5347A2E3)
-I (D:\KEIL\ARM\ARMCC\include\string.h)(0x588B8344)
-F (..\HARDWARE\RFID-RC522\my_rc522.c)(0x59ED9BAA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-ID:\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\my_rc522.o --omf_browse ..\obj\my_rc522.crf --depend ..\obj\my_rc522.d)
+I (D:\keil arm\ARM\ARMCC\include\string.h)(0x588B8344)
+F (..\HARDWARE\RFID-RC522\my_rc522.c)(0x59ED9BAA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-I"D:\keil arm\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\my_rc522.o --omf_browse ..\obj\my_rc522.crf --depend ..\obj\my_rc522.d)
 I (..\SYSTEM\sys\sys.h)(0x550F951A)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
-I (D:\KEIL\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\keil arm\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
 I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
 I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
@@ -194,17 +194,17 @@ I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (..\HARDWARE\LED\led.h)(0x532ADBE4)
 I (..\SYSTEM\delay\delay.h)(0x55CC2E58)
 I (..\SYSTEM\usart\usart.h)(0x59E591D8)
-I (D:\KEIL\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil arm\ARM\ARMCC\include\stdio.h)(0x588B8344)
 I (..\HARDWARE\RFID-RC522\rc522.h)(0x5347A2E3)
 I (..\HARDWARE\RFID-RC522\my_rc522.h)(0x59ED98FF)
-I (D:\KEIL\ARM\ARMCC\include\string.h)(0x588B8344)
-F (..\HARDWARE\CTL\control.c)(0x59F052B5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-ID:\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\control.o --omf_browse ..\obj\control.crf --depend ..\obj\control.d)
-I (D:\KEIL\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\keil arm\ARM\ARMCC\include\string.h)(0x588B8344)
+F (..\HARDWARE\CTL\control.c)(0x59F052B5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-I"D:\keil arm\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\control.o --omf_browse ..\obj\control.crf --depend ..\obj\control.d)
+I (D:\keil arm\ARM\ARMCC\include\string.h)(0x588B8344)
 I (..\HARDWARE\CTL\control.h)(0x59F04E0B)
 I (..\SYSTEM\sys\sys.h)(0x550F951A)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
-I (D:\KEIL\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\keil arm\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
 I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
 I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
@@ -231,12 +231,12 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (..\HARDWARE\RFID-RC522\my_rc522.h)(0x59ED98FF)
-F (..\SYSTEM\delay\delay.c)(0x55CC2E5C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-ID:\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+F (..\SYSTEM\delay\delay.c)(0x55CC2E5C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-I"D:\keil arm\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
 I (..\SYSTEM\delay\delay.h)(0x55CC2E58)
 I (..\SYSTEM\sys\sys.h)(0x550F951A)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
-I (D:\KEIL\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\keil arm\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
 I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
 I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
@@ -262,11 +262,11 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\SYSTEM\sys\sys.c)(0x55CC2E78)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-ID:\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+F (..\SYSTEM\sys\sys.c)(0x55CC2E78)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-I"D:\keil arm\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
 I (..\SYSTEM\sys\sys.h)(0x550F951A)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
-I (D:\KEIL\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\keil arm\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
 I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
 I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
@@ -292,11 +292,11 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\SYSTEM\usart\usart.c)(0x59E988AF)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-ID:\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+F (..\SYSTEM\usart\usart.c)(0x59E988AF)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-I"D:\keil arm\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
 I (..\SYSTEM\sys\sys.h)(0x550F951A)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
-I (D:\KEIL\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\keil arm\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
 I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
 I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
@@ -323,15 +323,15 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (..\SYSTEM\usart\usart.h)(0x59E591D8)
-I (D:\KEIL\ARM\ARMCC\include\stdio.h)(0x588B8344)
-F (..\CORE\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-ID:\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
-I (D:\KEIL\ARM\ARMCC\include\stdint.h)(0x588B8344)
-F (..\CORE\startup_stm32f10x_hd.s)(0x4D783CDE)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-ID:\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\KEIL\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "STM32F10X_HD SETA 1"--list .\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
-F (..\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x4D79EEC6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-ID:\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
+I (D:\keil arm\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (..\CORE\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-I"D:\keil arm\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
+I (D:\keil arm\ARM\ARMCC\include\stdint.h)(0x588B8344)
+F (..\CORE\startup_stm32f10x_hd.s)(0x4D783CDE)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-I"D:\keil arm\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\keil arm\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 524" --pd "STM32F10X_HD SETA 1"--list .\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x4D79EEC6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-I"D:\keil arm\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
-I (D:\KEIL\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\keil arm\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
 I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
 I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
@@ -356,11 +356,11 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-ID:\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-I"D:\keil arm\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
-I (D:\KEIL\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\keil arm\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
 I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
 I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
@@ -385,11 +385,11 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-ID:\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_usart.o --omf_browse ..\obj\stm32f10x_usart.crf --depend ..\obj\stm32f10x_usart.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-I"D:\keil arm\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_usart.o --omf_browse ..\obj\stm32f10x_usart.crf --depend ..\obj\stm32f10x_usart.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
-I (D:\KEIL\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\keil arm\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
 I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
 I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
@@ -414,11 +414,11 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\STM32F10x_FWLib\src\misc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-ID:\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\KEIL\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
+F (..\STM32F10x_FWLib\src\misc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\RFID-RC522 -I ..\HARDWARE\CTL-I.\RTE\_Target_1-I"D:\keil arm\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-I"D:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
-I (D:\KEIL\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\keil arm\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (..\USER\system_stm32f10x.h)(0x4D783CAA)
 I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
 I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)

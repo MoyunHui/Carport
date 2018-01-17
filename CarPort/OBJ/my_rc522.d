@@ -2,7 +2,7 @@
 ..\obj\my_rc522.o: ..\SYSTEM\sys\sys.h
 ..\obj\my_rc522.o: ..\USER\stm32f10x.h
 ..\obj\my_rc522.o: ..\CORE\core_cm3.h
-..\obj\my_rc522.o: D:\KEIL\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\my_rc522.o: D:\keil arm\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\my_rc522.o: ..\USER\system_stm32f10x.h
 ..\obj\my_rc522.o: ..\USER\stm32f10x_conf.h
 ..\obj\my_rc522.o: ..\STM32F10x_FWLib\inc\stm32f10x_adc.h
@@ -32,7 +32,7 @@
 ..\obj\my_rc522.o: ..\HARDWARE\LED\led.h
 ..\obj\my_rc522.o: ..\SYSTEM\delay\delay.h
 ..\obj\my_rc522.o: ..\SYSTEM\usart\usart.h
-..\obj\my_rc522.o: D:\KEIL\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\my_rc522.o: D:\keil arm\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\my_rc522.o: ..\HARDWARE\RFID-RC522\rc522.h
 ..\obj\my_rc522.o: ..\HARDWARE\RFID-RC522\my_rc522.h
-..\obj\my_rc522.o: D:\KEIL\ARM\ARMCC\Bin\..\include\string.h
+..\obj\my_rc522.o: D:\keil arm\ARM\ARMCC\Bin\..\include\string.h
