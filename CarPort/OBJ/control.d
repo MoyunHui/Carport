@@ -32,3 +32,4 @@
 ..\obj\control.o: ..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h
 ..\obj\control.o: ..\STM32F10x_FWLib\inc\misc.h
 ..\obj\control.o: ..\HARDWARE\RFID-RC522\my_rc522.h
+..\obj\control.o: ..\SYSTEM\delay\delay.h

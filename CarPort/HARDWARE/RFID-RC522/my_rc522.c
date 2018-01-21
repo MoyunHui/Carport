@@ -63,7 +63,7 @@ char RfidProcess(enum __RfidCmd rfidCmd)
 			status = PcdRead(block,g_readData);//从M1卡某一块读取到的数据存放在Read_Data[]数组中
 			if(status!=MI_OK) {return status;}
 			
-			UART_Send_Str("t3.txt=\"");
+			UART_Send_Str("t5.txt=\"");
 			for (x = 0; x < 2; x++)
 			{
 				USART1->DR = num[g_readData[x]/10];  //发送个位或百位
@@ -131,7 +131,7 @@ char RfidProcess(enum __RfidCmd rfidCmd)
 	case SEND_ID: 
 			rfidCmd = NO_CMD;
 			
-			UART_Send_Str("t2.txt=\"");
+			UART_Send_Str("t4.txt=\"");
 			for (x = 0; x < 4; x++)
 			{
 				USART1->DR = num[g_SN[x]/16]; //将16进制转 字符串发送

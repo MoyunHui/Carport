@@ -6,6 +6,8 @@
 #include "my_rc522.h"
 #include "string.h"
 #include "control.h"
+#include "key.h"
+#include "pwm.h"
 
 #define NULL 0
 /*************************************
@@ -33,11 +35,30 @@ void Moving(void);
 
 int main(void)
 {	
+	u8 t = 0;
 	AllInit(); // 全体初始化
 	while(1)
 	{	
 		SwipeCard();
 		Moving();
+		
+		t = KEY_Scan(0);
+		switch(t)
+		{
+			case KEY0_PRES:
+				Motor_1_Clockwise_Mov();
+				break;
+			case KEY1_PRES:
+				Motor_1_Anticlockwise_Mov();
+				break;
+			case KEY2_PRES:
+				Motor_2_Clockwise_Mov();
+				break;
+			case KEY3_PRES:
+				Motor_2_Anticlockwise_Mov();
+				break;
+			default:break;
+		}
 	}
 }
 
@@ -50,6 +71,10 @@ void AllInit(void)
 	uart_init(9600);	 //串口初始化为9600
 	LED_Init();		  	 //初始化与LED连接的硬件接口 
 	InitRc522(); 
+	KEY_Init();
+	TIM3_PWM_Init(14399,0); //??: PWM=72000/(899+1)=80Khz 
+	Motor_1_Stop();
+	Motor_2_Stop();
 }
 
 void SwipeCard(void)
@@ -140,13 +165,13 @@ void Moving(void)
 		UART_Send_Str("va0.val=1");  // 1为正在停车
 		UART_Send_END();
 		
-		
-		LED0 = 0;
-		delay_ms(5000);
-		InGarageData(); // 存入卡号
 		s_inGarageFlag = 0;
-//		UART_Send_Str("page page0");
-//		UART_Send_END();
+		InGarageData(); // 存入卡号
+		while(InGarageDriving()){}
+		
+		
+		UART_Send_Str("page page0");
+		UART_Send_END();
 		
 		
 //		for(y = 0; y < 9; y++)
@@ -172,14 +197,13 @@ void Moving(void)
 	}
 	else if (outGarageFlag == 1) // 开始取车
 	{
-		LED0 = 1;
-		
-		delay_ms(5000);
+		outGarageFlag = 0;
 		OutGarageData(); // 去除卡号
 		
-		outGarageFlag = 0;
-		//UART_Send_Str("page page0");
-		//UART_Send_END();
+		while(OutGarageDriving()){}
+		
+		UART_Send_Str("page page0");
+		UART_Send_END();
 		
 		
 //		for(y = 0; y < 9; y++)

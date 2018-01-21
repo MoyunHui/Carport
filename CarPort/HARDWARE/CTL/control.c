@@ -1,6 +1,7 @@
 #include "string.h"
 #include "control.h"
 #include "my_rc522.h"
+#include "delay.h"
 
 
 struct __GarageSpace g_GarageSpace[9] = {
@@ -139,4 +140,68 @@ void OutGarageData(void)
 	default:
 			break;
 	}
+}
+
+u8 InGarageDriving(void)
+{
+	u8 ret = 1;
+	delay_ms(5000);
+	
+	switch(thisCard)
+	{
+		case 0:
+			break;
+		case 1:
+			break;
+		case 2:
+			break;
+		case 3:
+			break;
+		case 4:
+			break;
+		case 5:
+			break;
+		case 6:
+			break;
+		case 7:
+			break;
+		case 8:
+			break;
+		default:
+			break;
+	}
+	ret = 0;
+	return ret;
+}
+
+u8 OutGarageDriving(void)
+{
+	u8 ret = 1;
+	delay_ms(5000);
+	
+	switch(thisCard)
+	{
+		case 0:
+			break;
+		case 1:
+			break;
+		case 2:
+			break;
+		case 3:
+			break;
+		case 4:
+			break;
+		case 5:
+			break;
+		case 6:
+			break;
+		case 7:
+			break;
+		case 8:
+			break;
+		default:
+			break;
+	}
+	ret = 0;
+	return ret;
 }

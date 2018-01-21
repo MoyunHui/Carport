@@ -21,6 +21,8 @@ struct __GarageSpace
 extern struct __GarageSpace g_GarageSpace[9];
 extern void InGarageData(void);
 extern void OutGarageData(void);
+extern u8 InGarageDriving(void);
+extern u8 OutGarageDriving(void);
 
 
 

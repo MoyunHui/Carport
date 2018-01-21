@@ -37,3 +37,5 @@
 ..\obj\main.o: ..\HARDWARE\RFID-RC522\my_rc522.h
 ..\obj\main.o: D:\keil arm\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\main.o: ..\HARDWARE\CTL\control.h
+..\obj\main.o: ..\HARDWARE\KEY\key.h
+..\obj\main.o: ..\HARDWARE\PWM\pwm.h
